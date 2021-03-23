@@ -32,6 +32,7 @@ view the html file in a browser
 
 
 ## Credits
+W3 School filter code  ( https://www.w3schools.com/howto/howto_js_filter_table.asp )
 
 
 #### Anything else that seems useful
