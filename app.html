@@ -44,6 +44,12 @@
 <h2>My Customers</h2>
 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+<div id="updateColumnDiv">
+    <input type="text" id="col1"  placeholder="Column 1">
+    <input type="text" id="col2"  placeholder="Column 2">
+    <input type="text" id="col3"  placeholder="Column 3">
+</div>
+<button type="button" onclick="clickFuntion()">Update column</button>
 
 <table id="myTable">
   <tr class="header">
@@ -103,6 +109,14 @@ function myFunction() {
     }       
   }
 }
+
+function clickFuntion(){
+    //console.log("hello world");
+    updateInputs = document.getElementById("updateColumnDiv");
+    console.log(updateInputs.children);
+    
+}
+
 </script>
 
 </body>
